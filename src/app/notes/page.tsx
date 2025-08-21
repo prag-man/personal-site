@@ -22,7 +22,7 @@ export default async function ThoughtsPage() {
           <header className="max-w-4xl mx-auto px-6 py-16 md:pt-16 md:pb-5">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl font-bold text-primary tracking-tight">
-                thoughts
+                notes
               </h1>
               <p className="text-lg md:text-xl text-muted leading-relaxed max-w-4xl">
                 A collection of musings on technology, systems thinking, and the craft of programming. 
@@ -43,7 +43,7 @@ export default async function ThoughtsPage() {
         <header className="max-w-4xl mx-auto px-6 py-16 md:pt-24 md:pb-12">
           <div className="space-y-6">
             <h1 className="text-4xl md:text-5xl font-bold text-primary tracking-tight">
-              thoughts
+              notes
             </h1>
             <p className="text-lg md:text-xl text-muted leading-relaxed max-w-2xl">
               A collection of musings on technology, systems thinking, and the craft of programming. 
@@ -56,7 +56,7 @@ export default async function ThoughtsPage() {
         <main className="max-w-4xl mx-auto px-6 pb-16">
           <div className="flex flex-col gap-8">
             {posts.map((thought) => (
-             <Link href={`/thoughts/${thought.slug}`} key={thought.id}>
+             <Link href={`/notes/${thought.slug}`} key={thought.id}>
               <article
                 key={thought.id}
                 className="group border border-border rounded-lg p-6 md:p-8 hover:border-primary/20 transition-all duration-200 hover:shadow-sm"

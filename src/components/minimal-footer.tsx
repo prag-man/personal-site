@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function MinimalFooter() {
   const links = [
     { name: 'home', href: '/' },
-    { name: 'thoughts', href: '/thoughts' },
+    { name: 'notes', href: '/notes' },
     { name: 'projects', href: '/projects' },
     { name: 'guestbook', href: '/guestbook' },
     { name: 'contact', href: '/contact' },
