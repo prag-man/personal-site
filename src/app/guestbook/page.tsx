@@ -100,8 +100,7 @@ export default function Guestbook() {
               guestbook
             </h1>
             <p className="text-lg md:text-xl text-muted leading-relaxed max-w-4xl">
-              Share your thoughts, feedback, or just say hello. I'd love to hear from fellow developers, 
-              designers, and anyone who stops by.
+              Share your thoughts, feedback, or just say hello. I'd love to hear from you...
             </p>
           </div>
         </header>

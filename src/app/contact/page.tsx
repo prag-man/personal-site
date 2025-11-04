@@ -138,9 +138,7 @@ export default function ContactPage() {
             contact
           </h1>
           <p className="md:text-lg text-sm text-muted-foreground leading-relaxed max-w-2xl">
-            I&apos;m always interested in meaningful collaborations, technical discussions, 
-            and connecting with fellow developers. Whether you have a project idea, 
-            a question, or just want to chat about technology, feel free to reach out.
+            I&apos;m jagat thala, feel free to reach out.
           </p>
         </div>
 

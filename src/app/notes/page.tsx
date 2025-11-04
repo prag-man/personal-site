@@ -25,8 +25,7 @@ export default async function ThoughtsPage() {
                 notes
               </h1>
               <p className="text-lg md:text-xl text-muted leading-relaxed max-w-4xl">
-                A collection of musings on technology, systems thinking, and the craft of programming. 
-                Thoughts that didn't fit in a tweet but aren't quite essays.
+                dump of thoughts, ideas, questions, suvichars and ramblings to my future dumb self, hoping he'll shit less and be a little more useful to the world ...
               </p>
             </div>
           </header>

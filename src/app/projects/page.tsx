@@ -107,9 +107,7 @@ export default async function ProjectsPage() {
             projects
           </h1>
           <p className="text-lg md:text-xl text-muted leading-relaxed max-w-4xl">
-            A collection of full-stack applications, APIs, and developer tools. 
-            Each project demonstrates different aspects of modern web development, 
-            from frontend frameworks to backend architecture and DevOps practices.
+            collection of stuff i've built, mostly for fun.
           </p>
         </div>
       </header>
@@ -129,9 +127,7 @@ export default async function ProjectsPage() {
             projects
           </h1>
           <p className="text-lg md:text-xl text-muted leading-relaxed">
-            A curated selection of full-stack applications, APIs, and developer tools. 
-            Each project demonstrates different aspects of modern web development, 
-            from frontend frameworks to backend architecture and DevOps practices.
+            collection of stuff i've built, mostly for fun.
           </p>
         </div>
 
