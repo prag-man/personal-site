@@ -3,9 +3,13 @@ import { BlockObjectResponse, PageObjectResponse } from "@notionhq/client/build/
 
 const notion = new Client({ auth: process.env.NOTION_TOKEN });
 
+export function getNotesDatabaseId() {
+  return process.env.NOTION_DB_ID || process.env.NOTION_THOUGHT_DB_ID!;
+}
+
 export async function getPublishedPosts() {
   const response = await notion.databases.query({
-    database_id: process.env.NOTION_THOUGHT_DB_ID!,
+    database_id: getNotesDatabaseId(),
     filter: {
       property: "Published",
       checkbox: { equals: true },
@@ -87,7 +91,7 @@ export async function addContactSubmission({
 
 export async function getPost(slug: string) {
     const response = await notion.databases.query({
-        database_id: process.env.NOTION_DB_ID!,
+        database_id: getNotesDatabaseId(),
         filter: {
             property: "Slug",
             rich_text: {
